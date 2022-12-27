@@ -22,3 +22,12 @@ data = [
 
 flowers = []
 shrubs = []
+
+for plant in data:
+    if "Flower" in plant:
+        flowers.append(plant)
+    elif "Shrub" in plant:
+        shrubs.append(plant)
+print(flowers)
+print()
+print(shrubs)
