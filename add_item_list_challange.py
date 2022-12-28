@@ -28,6 +28,6 @@ for plant in data:
         flowers.append(plant)
     elif "Shrub" in plant:
         shrubs.append(plant)
-print(flowers)
+print(flowers.removesuffix())
 print()
 print(shrubs)
